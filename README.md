@@ -14,11 +14,13 @@ Linux Setup:
 - Create a file named login.sh with the following contents and run "chmod +x login.sh" to make it executable (Modify as appropriate):
 
     \#!/bin/sh
+
     exec sudo agetty -8 38400 rfcomm0 ansi
 
 - Create a file named bluetoothio.sh with the following contents and run "chmod +x bluetoothio.sh" to make it executable (Modify as appropriate):
 
     \#!/bin/sh
+
     exec sudo rfcomm watch /dev/rfcomm0 1 $1
 
 - Now run with "./bluetoothio.sh ./login.sh". It should now be awaiting an rfcomm connection on channel 1, when one is active login.sh will be launched to handle this.
