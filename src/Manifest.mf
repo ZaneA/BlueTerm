@@ -1,0 +1,7 @@
+Midlet-1: BlueTerm, /icon.png, BlueTerm.BlueTerm
+MIDlet-Name: BlueTerm
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Zane Ashby
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+

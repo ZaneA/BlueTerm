@@ -1,0 +1,11 @@
+MIDlet-1: BlueTerm, /icon.png, BlueTerm
+MIDlet-Jar-Size: 12435
+MIDlet-Jar-URL: BlueTerm.jar
+MIDlet-Name: BlueTerm
+MIDlet-Vendor: Zane Ashby
+MIDlet-Version: 1.0.0
+MIDlet-Icon: /icon.png
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+BT-Address: btspp://001020304050:1
+
